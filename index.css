@@ -1,0 +1,82 @@
+body{
+    background-color: #e0562c; 
+}
+/*top-most navbar*/
+.navbartop
+{
+    position: relative;
+    cursor: pointer;
+	font-size: 23px;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	padding: 1em 0;
+    
+}  
+li
+{
+    display: inline;
+	padding: 35px;
+	
+}
+li a
+{
+	position: relative;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	transition: all ease-in-out 250ms;
+}
+
+li a:hover
+{
+	background: black;
+	color:rgb(255, 255, 255)
+	
+}
+
+.profileimg
+{
+	position: relative;
+	float : right;
+	padding-top: 5px;
+	padding-right: 200px;
+	width: 520px;
+	height: 500px;
+}
+/*font-quote on left home page.*/
+.quote 
+{
+	position: relative;
+	font-size: 70px;
+	margin-left: -70px;
+	margin-top: 40px;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(255, 255, 255);
+}
+
+
+/*Code for social media handles*/
+.icons img
+{
+	position: relative;
+	height: 40px;
+	width: 41px;
+	margin: 2px;
+	
+}
+
+li img
+{
+	display: block;
+}
+.icons
+{
+	margin-left: -40;
+}
+li img:hover
+{
+	background-color: #ffffff;
+	transition: all ease-in 200ms;
+	border-radius: 20px;
+}
